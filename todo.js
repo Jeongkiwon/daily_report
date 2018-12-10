@@ -14,8 +14,17 @@ function getSubmit(){
     
 }
 
+function makeForm(){
+    
+}
+
+function clickBox(){
+    const box=document.getElementsByClassName("box");
+    box.addEventListener("click",makeForm);
+}
+
 function init(){
-    getSubmit();
+    clickBox();
 }
 init();
 
